@@ -1,0 +1,26 @@
+article{
+    background-color: #fbf9f9;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+#read-more{
+    color: green;
+}
+#read-more:hover{
+    color:blue
+}
+
+#cards{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(300px, 1fr));    
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content:center ;
+}
+article:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15); 
+    border-color: #5345e9; 
+}
